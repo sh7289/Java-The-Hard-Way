@@ -3,6 +3,7 @@
  */
 public class MyInitials {
         public static void main(String[] args){
+            System.out.println("The intials for Stephen John Hughes will appear below:");
             System.out.println(" SSS          JJJJJ           H   H");
             System.out.println("S   S           J             H   H");
             System.out.println("S               J             H   H");
