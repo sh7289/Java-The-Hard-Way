@@ -17,8 +17,8 @@ public class CreatingVariables
         e = 2.71828182845904523536;
         checking = 1.89;
 
-        firstName = "Graham";
-        last_name = "Mitchell";
+        firstName = "Stephen";
+        last_name = "Hughes";
         title = "Mr.";
 
         System.out.println( "The variable x contains " + x);
