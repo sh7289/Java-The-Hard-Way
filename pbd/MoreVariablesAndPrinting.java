@@ -7,6 +7,10 @@ public class MoreVariablesAndPrinting
     {
         String Name, Eyes, Teeth, Hair;
         int Age, Height, Weight;
+        double inches_in_cm, lbs_in_kg;
+
+        inches_in_cm = 2.34;
+        lbs_in_kg = 0.45;
 
         Name = "Stephen J. Hughes";
         Age = 25; // truth
@@ -17,8 +21,8 @@ public class MoreVariablesAndPrinting
         Hair = "Fair";
 
         System.out.println( "Let's talk about " + Name + ".");
-        System.out.println( "He's " + Height + " inches tall.");
-        System.out.println( "He's " + Weight + " pounds heavy.");
+        System.out.println( "He's " + Height + " inches " + "(or " + Math.round(Height*inches_in_cm) + " cm)" +  " tall.");
+        System.out.println( "He's " + Weight + " pounds " + "(or " + Math.round(Weight*lbs_in_kg) + " kg)" +   " heavy.");
         System.out.println( "Actually, that's not too heavy.");
         System.out.println( "He's got " + Eyes + " eyes and " + Hair + " hair.");
         System.out.println( "His teeth are usually " + Teeth + " depending on whether or not he just had coffee.");
