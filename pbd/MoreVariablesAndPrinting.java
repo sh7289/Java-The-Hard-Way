@@ -9,6 +9,7 @@ public class MoreVariablesAndPrinting
         int Age, Height, Weight;
         double inches_in_cm, lbs_in_kg;
 
+        // conversion factor for inches to cm and lbs to kg
         inches_in_cm = 2.34;
         lbs_in_kg = 0.45;
 
