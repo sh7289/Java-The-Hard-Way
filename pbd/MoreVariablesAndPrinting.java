@@ -8,7 +8,8 @@ public class MoreVariablesAndPrinting
         String Name, Eyes, Teeth, Hair;
         int Age, Height, Weight;
         double inches_in_cm, lbs_in_kg;
-
+        
+        // Test comment
         // conversion factor for inches to cm and lbs to kg
         inches_in_cm = 2.34;
         lbs_in_kg = 0.45;
